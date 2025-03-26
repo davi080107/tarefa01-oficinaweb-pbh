@@ -1,0 +1,39 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contato-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.contato-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.info-contato {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.contato-item {
+    text-align: left;
+}
+
+.contato-item strong {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
